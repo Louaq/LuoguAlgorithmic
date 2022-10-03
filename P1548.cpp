@@ -14,10 +14,10 @@ int main() {
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < M; ++j) {
             if(i==j){
-                Squ+=(N-i)*(M-j);
+                Squ+=(N-i)*(M-j);  //判断正方形
             }
             else{
-                Rec+=(N-i)*(M-j);
+                Rec+=(N-i)*(M-j);  //判断长方形
             }
         }
     }

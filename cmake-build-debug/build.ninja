@@ -1030,6 +1030,39 @@ build P1548.exe: CXX_EXECUTABLE_LINKER__P1548_Debug CMakeFiles/P1548.dir/P1548.c
   TARGET_IMPLIB = libP1548.dll.a
   TARGET_PDB = P1548.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target P1320
+
+
+#############################################
+# Order-only phony target for P1320
+
+build cmake_object_order_depends_target_P1320: phony || CMakeFiles/P1320.dir
+
+build CMakeFiles/P1320.dir/P1320.cpp.obj: CXX_COMPILER__P1320_Debug C$:/Users/YangYang/Desktop/ClionProject/P1320.cpp || cmake_object_order_depends_target_P1320
+  DEP_FILE = CMakeFiles\P1320.dir\P1320.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P1320.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1320.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1320
+
+
+#############################################
+# Link the executable P1320.exe
+
+build P1320.exe: CXX_EXECUTABLE_LINKER__P1320_Debug CMakeFiles/P1320.dir/P1320.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1320.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1320.exe
+  TARGET_IMPLIB = libP1320.dll.a
+  TARGET_PDB = P1320.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1096,6 +1129,8 @@ build P1317: phony P1317.exe
 
 build P1319: phony P1319.exe
 
+build P1320: phony P1320.exe
+
 build P1548: phony P1548.exe
 
 build P1605: phony P1605.exe
@@ -1124,7 +1159,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/YangYang/Desktop/ClionProject/cmake-build-debug
 
-build all: phony main.exe Test.exe P1000.exe 1035.exe P1046.exe P1047.exe P1059.exe P1075.exe P1085.exe P1089.exe P1116.exe P1146.exe P1150.exe P1151.exe P1152.exe test.exe P1161.exe P1179.exe P1200.exe P1304.exe P1307.exe P1317.exe P1319.exe P5715.exe P5718.exe P1997.exe P2670.exe P3717.exe P1605.exe P1548.exe
+build all: phony main.exe Test.exe P1000.exe 1035.exe P1046.exe P1047.exe P1059.exe P1075.exe P1085.exe P1089.exe P1116.exe P1146.exe P1150.exe P1151.exe P1152.exe test.exe P1161.exe P1179.exe P1200.exe P1304.exe P1307.exe P1317.exe P1319.exe P5715.exe P5718.exe P1997.exe P2670.exe P3717.exe P1605.exe P1548.exe P1320.exe
 
 # =============================================================================
 # Built-in targets

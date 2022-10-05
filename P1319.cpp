@@ -1,38 +1,44 @@
-//
-// Created by YangYang on 2022/9/20.
-//
+/*
+ * 压缩问题
+ */
 
 
-#include <iostream>
-#include <vector>
+#include<iostream>
 
 using namespace std;
 
 int main() {
-    int k[201];
-    int n, m=0;
-    cin>>n;
-    for(int i=1;i<=2*n;i++){
-        cin>>k[i];
+    int n = 0;
+    int a[250];
+    cin >> n;
+    for (int i = 1; i <= 2 * n; i++) {
+        cin >> a[i];
     }
-
-    for(int i = 1;i<=2*n;i++){
-        if(i%2!=0){
-            //输出0
-            for(int j=1;j<=k[i];j++){
-                cout<<0;
-                m++;
-                if(m%n==0) cout<<endl;
+    //交替输出0和1
+    int count = 0;
+    for (int i = 1; i <= 2*n; i++) {
+        if (i % 2 == 0) {
+            for (int j = 1; j <= a[i]; j++) {
+                count++;
+                cout << 1;
+                if (count == n) {
+                    cout << endl;
+                    count = 0;
+                }
             }
-        } else{
-            //输出1
-            for(int j=1;j<=k[i];j++){
-                cout<<1;
-                m++;
-                if(m%n==0) cout<<endl;
+        } else {
+            for (int j = 1; j <= a[i]; j++) {
+                count++;
+                cout << 0;
+                if (count == n) {
+                    cout << endl;
+                    count = 0;
+                }
             }
         }
+
+
     }
 
-    return 0;
+
 }

@@ -5,39 +5,17 @@
 
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 
 using namespace std;
 
 int main() {
-    int a[200][200];
-    int count1 = 0, count2=0, m=0;
-    for (int i = 0; i < 200; i++) {
-        for (int j = 0; j < 200; j++) {
-            cin>>a[i][j];
-        }
-    }
-    //判断二维数组中连续的0和1的个数
-    for (int i = 0; i < 200; i++) {
-        for (int j = 0; j < 200; j++) {
-
-            if(a[i][j]==0){
-                while(a[i][j]==0){
-                    count1++;
-                }
-                cout<<count1<<" ";
-            }
+    //在一个N*N的矩阵里分别统计连续0或1的出现次数，并输出所统计出来的结果
 
 
-            if(a[i][j]==1){
-                while(a[i][j]==1){
-                    count2++;
-                }
-                cout<<count2<<" ";
-            }
 
-        }
-    }
+
 
 
     return 0;

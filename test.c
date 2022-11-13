@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 
+
 int main() {
     //判断一个数是否是素数
     int n=0;

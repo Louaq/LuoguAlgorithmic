@@ -1096,6 +1096,138 @@ build P1320.exe: CXX_EXECUTABLE_LINKER__P1320_Debug CMakeFiles/P1320.dir/P1320.c
   TARGET_IMPLIB = libP1320.dll.a
   TARGET_PDB = P1320.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target P2669
+
+
+#############################################
+# Order-only phony target for P2669
+
+build cmake_object_order_depends_target_P2669: phony || CMakeFiles/P2669.dir
+
+build CMakeFiles/P2669.dir/P2669.cpp.obj: CXX_COMPILER__P2669_Debug C$:/Users/YangYang/Desktop/ClionProject/P2669.cpp || cmake_object_order_depends_target_P2669
+  DEP_FILE = CMakeFiles\P2669.dir\P2669.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P2669.dir
+  OBJECT_FILE_DIR = CMakeFiles\P2669.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P2669
+
+
+#############################################
+# Link the executable P2669.exe
+
+build P2669.exe: CXX_EXECUTABLE_LINKER__P2669_Debug CMakeFiles/P2669.dir/P2669.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P2669.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P2669.exe
+  TARGET_IMPLIB = libP2669.dll.a
+  TARGET_PDB = P2669.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1909
+
+
+#############################################
+# Order-only phony target for P1909
+
+build cmake_object_order_depends_target_P1909: phony || CMakeFiles/P1909.dir
+
+build CMakeFiles/P1909.dir/P1909.cpp.obj: CXX_COMPILER__P1909_Debug C$:/Users/YangYang/Desktop/ClionProject/P1909.cpp || cmake_object_order_depends_target_P1909
+  DEP_FILE = CMakeFiles\P1909.dir\P1909.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P1909.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1909.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1909
+
+
+#############################################
+# Link the executable P1909.exe
+
+build P1909.exe: CXX_EXECUTABLE_LINKER__P1909_Debug CMakeFiles/P1909.dir/P1909.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1909.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1909.exe
+  TARGET_IMPLIB = libP1909.dll.a
+  TARGET_PDB = P1909.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P5534
+
+
+#############################################
+# Order-only phony target for P5534
+
+build cmake_object_order_depends_target_P5534: phony || CMakeFiles/P5534.dir
+
+build CMakeFiles/P5534.dir/P5534.cpp.obj: CXX_COMPILER__P5534_Debug C$:/Users/YangYang/Desktop/ClionProject/P5534.cpp || cmake_object_order_depends_target_P5534
+  DEP_FILE = CMakeFiles\P5534.dir\P5534.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P5534.dir
+  OBJECT_FILE_DIR = CMakeFiles\P5534.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P5534
+
+
+#############################################
+# Link the executable P5534.exe
+
+build P5534.exe: CXX_EXECUTABLE_LINKER__P5534_Debug CMakeFiles/P5534.dir/P5534.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P5534.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P5534.exe
+  TARGET_IMPLIB = libP5534.dll.a
+  TARGET_PDB = P5534.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P2249
+
+
+#############################################
+# Order-only phony target for P2249
+
+build cmake_object_order_depends_target_P2249: phony || CMakeFiles/P2249.dir
+
+build CMakeFiles/P2249.dir/P2249.cpp.obj: CXX_COMPILER__P2249_Debug C$:/Users/YangYang/Desktop/ClionProject/P2249.cpp || cmake_object_order_depends_target_P2249
+  DEP_FILE = CMakeFiles\P2249.dir\P2249.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P2249.dir
+  OBJECT_FILE_DIR = CMakeFiles\P2249.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P2249
+
+
+#############################################
+# Link the executable P2249.exe
+
+build P2249.exe: CXX_EXECUTABLE_LINKER__P2249_Debug CMakeFiles/P2249.dir/P2249.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P2249.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P2249.exe
+  TARGET_IMPLIB = libP2249.dll.a
+  TARGET_PDB = P2249.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1168,11 +1300,19 @@ build P1548: phony P1548.exe
 
 build P1605: phony P1605.exe
 
+build P1909: phony P1909.exe
+
 build P1997: phony P1997.exe
+
+build P2249: phony P2249.exe
+
+build P2669: phony P2669.exe
 
 build P2670: phony P2670.exe
 
 build P3717: phony P3717.exe
+
+build P5534: phony P5534.exe
 
 build P5715: phony P5715.exe
 
@@ -1194,7 +1334,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/YangYang/Desktop/ClionProject/cmake-build-debug
 
-build all: phony main.exe Test.exe P1000.exe 1035.exe P1046.exe P1047.exe P1059.exe P1075.exe P1085.exe P1089.exe P1116.exe P1146.exe P1150.exe P1151.exe P1152.exe test.exe P1161.exe P1179.exe P1200.exe P1304.exe P1307.exe P1317.exe P1319.exe P5715.exe P5718.exe P1997.exe P2670.exe P3717.exe P1605.exe P1548.exe Test2.exe P1320.exe
+build all: phony main.exe Test.exe P1000.exe 1035.exe P1046.exe P1047.exe P1059.exe P1075.exe P1085.exe P1089.exe P1116.exe P1146.exe P1150.exe P1151.exe P1152.exe test.exe P1161.exe P1179.exe P1200.exe P1304.exe P1307.exe P1317.exe P1319.exe P5715.exe P5718.exe P1997.exe P2670.exe P3717.exe P1605.exe P1548.exe Test2.exe P1320.exe P2669.exe P1909.exe P5534.exe P2249.exe
 
 # =============================================================================
 # Built-in targets

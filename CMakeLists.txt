@@ -35,3 +35,8 @@ add_executable(P1605 P1605.cpp)
 add_executable(P1548 P1548.cpp)
 add_executable(Test2 Test2.cpp)
 add_executable(P1320 P1320.cpp)
+add_executable(P2669 P2669.cpp)
+
+add_executable(P1909 P1909.cpp)
+add_executable(P5534 P5534.cpp)
+add_executable(P2249 P2249.cpp)

@@ -1,17 +1,10 @@
-# 洛谷刷题
+---
+cover: >-
+  https://images.unsplash.com/photo-1685678283392-6c3c98fc9809?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NTU5ODF8&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
 
-![图片](https://upload-images.jianshu.io/upload\_images/5809200-a99419bb94924e6d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 目录
-
-## 答案
-
-
+# 😜 洛谷刷题
 
 
 
-
-
-:clap:
-
-12334
